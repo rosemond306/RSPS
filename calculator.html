@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <ul class="topcontact">
+                <div class="phone-top-contact">
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                   <a href="tel:+447933509396"><h3>+447933509396</h3></a>
+                   
+                </div>
+                <div class="sm-top-contact">
+                    <a href=""> <i class="fa fa-whatsapp" aria-hidden="true"style="font-size: 2em;"></i></a>
+                    <a href=""> <i class="fa fa-instagram" aria-hidden="true" style="font-size: 2em;"></i></a>
+                </div>
+
+            </ul>
+           
+            <div class="header-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/rspslogo3.png" alt="rsps logo">
+                    </a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <div class="menu-hidden-resp" id='myMenu'>
+                                <li><a href="#">HOW IT WORKS</a></li>
+                            <li><a href="#">PRICING</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                            <div class="dropdown">
+                                <button class="dropbtn">QET QUICK ESTIMATE
+                                  <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                  <a href="calculator.html">SHOPPING FEES CALCULATOR</a>
+                                  <a href="#">SHIPPING FEES ESTIMATOR</a>
+                                </div>
+                              </div>
+                            <li class="signup"><a href="login.html">SIGN UP/LOGIN</a></li>
+                            </div>
+                            
+                            <li><a href="javascript:void(0);" class="icon" onclick="myfunction()"><i class="fa fa-bars"></i></a></li>
+                          
+                        
+                        </ul> 
+                       
+                            
+                        
+
+
+                    </nav>
+                </div>
+                
+            </div>
+            <div class="marqee">
+              <div class="marqeecont">
+                <marquee behavior="scroll" direction="left">
+                    <h3>
+                       TODAY'S RATE VIA <a href="#">ABOKI FX</a> 1 GBP (£)= ₦ 630
+                    </h3>
+                </marquee>
+               </div> 
+            </div> 
+                
+            </div>
+        </header>
+        <section class="banner">
+        <div class="content">
+            <h1>ORDER CALCULATOR</h1>
+        </div>
+        
+        </section>
+        <section class="calculator-invoice-bill">
+            <div class="cib-wrapper">
+                <div class="calculator">
+                    <h1>ENTER ORDER DETAILS BELOW </h1>
+                    <form action="POST">
+                        <div>
+                            <label for="shopping">Type of Shopping</label>
+                            <select  id="shopping">
+                            <option value="disabled selected">Choose the type of shopping </option>
+                            <option value="Online">ONLINE</option>
+                            <option value="In-store">INSTORE</option>
+                           </select>
+                        </div>
+                        <div>
+                            <label for="shop">Store Name</label>
+                            <select  id="shop">
+                            <option value="disabled selected">Select name of Store</option>
+                            <option value="shop1-24">SHOP 1-24</option>
+                            <option value="shop1-24">SHOP 25-49</option>
+                            <option value="shop1-24">SHOP 50-74</option>
+                            <option value="shop1-24">SHOP 75-100</option>
+                           </select>
+                        </div>
+                        <div>
+                            <label for="shop">Delivery Type</label>
+                            <select  id="shop">
+                            <option value="disabled selected">Select type of local delivery</option>
+                            <option value="standard-delivery">STANDARD DELIVERY</option>
+                            <option value="express-delivery">EXPRESS DELIVERY</option>
+                           </select>
+                        </div>
+                        <div>
+                            <label for="edd">Delivery time-frame</label>
+                            <input type="text" name="edd" id="edd" placeholder="Autofill ">
+                        </div>
+                        <div>
+                            <label for="order-amt">Order Amount GBP (£)</label>
+                            <input type="number" name="order-amt" id="order-amt" placeholder="Total Amount of order">
+
+                        </div>
+                        <div>
+                            <label for="del">Delivery within UK</label>
+                            <input type="text" name="del" id="del" placeholder="Autofill ">
+                        </div>
+
+
+                        
+                    </form>
+    
+                </div>
+                <div class="invoice">
+    
+                </div>
+                <div class="bill">
+    
+                </div>
+            </div>
+            
+            
+        </section>
+    </body>
+</html>
